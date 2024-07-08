@@ -10,7 +10,7 @@ The task is to extract the data from plots published in research papers. We’ve
 5. **Re-plot the data** with original data points.
 
 ## Folder Structure and Contents
-
+All the files are named as <page_number>_<Plot_name>. For example: 40_B is plot B on page number 40 of the research paper pdf.
 - **automeris_calibration_details**: Contains calibration details of the axes of each plot.
 - **automeris_projects_each_plot**: Automeris project `.tar` files that allow us to make changes to axes calibration or adjust the data points.
 - **main_code_dir**: (Work-in-progress) Contains the code file to re-plot each plot and data files.
