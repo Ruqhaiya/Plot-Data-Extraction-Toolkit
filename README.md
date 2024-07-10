@@ -17,3 +17,5 @@ All the files are named as <page_number>_<Plot_name>. For example: 40_B is plot 
 - **plot_data_files**: Contains all the CSV files of the data extracted for each plot.
 - **plots_images**: Contains screenshots of each plot.
 - **screenshots_of_data_extraction**: Contains a screenshot of how the plot looked after extracting the data.
+
+**re-plotting.ipynb** and **re-plotting-for-plots-that-need-rounding** are automated pythong scripts that generate comparison plots for original data, rounded data, and original plot images.
