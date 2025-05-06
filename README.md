@@ -1,4 +1,4 @@
-# Figure Data Extraction Toolkit
+# Plot Data Extraction Toolkit
 
 > Extract, clean, and re-plot numerical data from figures published in research papers—so you can finally put those JPEGs to work in your analyses.
 
