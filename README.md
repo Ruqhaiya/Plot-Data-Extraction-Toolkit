@@ -91,9 +91,6 @@ Whether you’re reproducing published results or building your own meta-analysi
 * Integrate unit tests for calibration accuracy
 * Package as a PyPI module
 
-```
-
-
 # Acknowledgments
 
 Special thanks to **Dr. Brian Fischer** for his invaluable guidance and mentorship on this project, and for his extraordinary work in auditory neuroscience research. This tool was built as part of our ongoing research in understanding population-level auditory coding in barn owls.
