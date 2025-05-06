@@ -14,6 +14,10 @@ Research papers are full of valuable data locked inside static figures for which
 
 Whether you’re reproducing published results or building your own meta-analysis, this repo makes figure→data friction a thing of the past.
 
+* Sample output:
+
+![Image](re-plotted_figures_with_regression_lines/45_A2_regression.png)
+
 ## Tech Stack
 
 - **[WebPlotDigitizer](http://automeris.io/WebPlotDigitizer/)** for interactive digitization  
