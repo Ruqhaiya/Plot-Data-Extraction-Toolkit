@@ -40,13 +40,14 @@ Whether you’re reproducing published results or building your own meta-analysi
 
 > **Naming convention:** `<page>_<plot_label>.csv` (e.g. `40_B.csv`).
 
-## 🛠️ Getting Started
+## Getting Started
 
-1. **Clone the repo**  
+1. **Clone the repo**
+
    ```bash
    git clone https://github.com/your-username/figure-data-extraction.git
    cd figure-data-extraction
-````
+
 
 2. **Install dependencies**
 
@@ -82,7 +83,7 @@ Whether you’re reproducing published results or building your own meta-analysi
 * **Reproducibility:** Store full digitizer projects to revisit and refine extractions.
 * **Automation-Friendly:** Bulk-process dozens of figures with a single Python script.
 * **Transparent:** Visual checks built into notebooks to ensure data integrity.
-* **Skill Showcase:** Demonstrates proficiency in open-source tools, Python scripting, and data wrangling.
+* Demonstrates proficiency in open-source tools, Python scripting, and data wrangling.
 
 ## Future Improvements
 
