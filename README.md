@@ -2,7 +2,7 @@
 
 > Extract, clean, and re-plot numerical data from figures published in research papers—so you can finally put those JPEGs to work in your analyses.
 
-## Project Overview
+# Project Overview
 
 Research papers are full of valuable data locked inside static figures for which data is sometimes not publically published. This toolkit uses WebPlotDigitizer (automeris.io) and Python to:
 
@@ -14,14 +14,14 @@ Research papers are full of valuable data locked inside static figures for which
 
 Whether you’re reproducing published results or building your own meta-analysis, this repo makes figure→data friction a thing of the past.
 
-## Key Highlights
+# Key Highlights
 
 * **Reproducibility:** Store full digitizer projects to revisit and refine extractions.
 * **Automation-Friendly:** Bulk-process dozens of figures with a single Python script.
 * **Transparent:** Visual checks built into notebooks to ensure data integrity.
 * **Skills**: Demonstrates proficiency in open-source tools, Python scripting, and data wrangling.
 
-## Sample Outputs (Original vs Re-plotted) 
+# Sample Outputs (Original vs Re-plotted) 
 
 ### Example 1: Plot B from page 40 of the paper
 
@@ -57,7 +57,7 @@ Whether you’re reproducing published results or building your own meta-analysi
 ---
 
 
-## Tech Stack
+# Tech Stack
 
 - **[WebPlotDigitizer](http://automeris.io/WebPlotDigitizer/)** for interactive digitization  
 - **Python 3.8+** with:
@@ -65,7 +65,7 @@ Whether you’re reproducing published results or building your own meta-analysi
   - matplotlib  
   - numpy  
 
-## Repository Structure
+# Repository Structure
 
 ```
 
@@ -83,7 +83,7 @@ Whether you’re reproducing published results or building your own meta-analysi
 
 > **Naming convention:** `<page>_<plot_label>.csv` (e.g. `40_B.csv`).
 
-## Getting Started
+# Getting Started
 
 1. **Clone the repo**
 
@@ -107,7 +107,7 @@ Whether you’re reproducing published results or building your own meta-analysi
    * Launch **re-plotting.ipynb** to see side-by-side comparisons.
    * Tweak **automeris\_projects\_each\_plot/** files and re-run extraction anytime.
 
-## Typical Workflow
+# Typical Workflow
 
 1. **Calibrate axes** in WebPlotDigitizer (set X1, X2, Y1, Y2).
 2. **Extract points**
@@ -121,13 +121,13 @@ Whether you’re reproducing published results or building your own meta-analysi
 4. **Re-plot** using provided scripts/notebooks
 5. **Validate**: visually confirm accuracy against original image
 
-## Future Improvements
+# Future Improvements
 
 * Add CLI interface for headless batch extraction
 * Integrate unit tests for calibration accuracy
 * Package as a PyPI module
 
-## Acknowledgments
+# Acknowledgments
 
 Special thanks to **Dr. Brian Fischer** for his invaluable guidance and mentorship on this project, and for his extraordinary work in auditory neuroscience research. This tool was built as part of our ongoing research in understanding population-level auditory coding in barn owls.
 
