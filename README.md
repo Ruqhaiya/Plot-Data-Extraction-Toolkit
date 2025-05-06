@@ -14,9 +14,48 @@ Research papers are full of valuable data locked inside static figures for which
 
 Whether you’re reproducing published results or building your own meta-analysis, this repo makes figure→data friction a thing of the past.
 
-* Sample output:
+## Key Highlights
 
-![Image](re-plotted_figures_with_regression_lines/45_A2_regression.png)
+* **Reproducibility:** Store full digitizer projects to revisit and refine extractions.
+* **Automation-Friendly:** Bulk-process dozens of figures with a single Python script.
+* **Transparent:** Visual checks built into notebooks to ensure data integrity.
+* **Skills**: Demonstrates proficiency in open-source tools, Python scripting, and data wrangling.
+
+## Sample Outputs (Original vs Re-plotted) 
+
+### Example 1: Plot B from page 40 of the paper
+
+**Original figure**
+
+![Figure 40_B](plot_images/40_B.png) 
+
+**Extraction in WebPlotDigitizer**: How the digitizer looked after template-matching and cleanup.
+![Extraction 40_B](screenshots_of_data_extraction/40_B.png)  
+
+**Re-plotted with Regression**
+* Final overlay of extracted points and fitted regression line.
+![Regression Fit for Plot 45_A2](replotted_figures_rounded_4_5mm_with_regression_lines/40_B_regression.png)  
+
+---
+
+### Example 2: Plot A from page 48 of the paper. 
+* Final overlay of extracted points vs original data
+![Figure 48_A](replotted_figures/48_A_replotted.png)  
+
+---
+
+### Example 3: Original vs Re-plotted: Plot 3A from page ICC_ICX paper. 
+* Final overlay of extracted points vs original data
+![Figure 3A_ICc_ICx](replotted_figures_paper_2/3A_ICc_ICx.png)  
+
+---
+
+### Example 4: Original vs Re-plotted: Plot 10_A from page ICC paper. 
+* Final overlay of extracted points vs original data
+![Figure 10_A_dist_peaks_ICc](replotted_figures_paper_3/10_A_dist_peaks_ICc.png)  
+
+---
+
 
 ## Tech Stack
 
@@ -81,13 +120,6 @@ Whether you’re reproducing published results or building your own meta-analysi
    * `.tar` project file for future edits
 4. **Re-plot** using provided scripts/notebooks
 5. **Validate**: visually confirm accuracy against original image
-
-## Key Highlights
-
-* **Reproducibility:** Store full digitizer projects to revisit and refine extractions.
-* **Automation-Friendly:** Bulk-process dozens of figures with a single Python script.
-* **Transparent:** Visual checks built into notebooks to ensure data integrity.
-* Demonstrates proficiency in open-source tools, Python scripting, and data wrangling.
 
 ## Future Improvements
 
